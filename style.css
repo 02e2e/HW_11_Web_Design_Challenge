@@ -1,93 +1,43 @@
 
-.left-image {
-  
-  width: 400px; 
-  float: left; 
-  margin-right: 10px;  
-  
-
-}
-
-.right-image {
-
-  width: 800px; 
-  float: right; 
-  margin-right: 10px;  
-  margin-top: 10px; 
-  
-
-}
 
 body {
-  padding: 0; 
-  margin: 0; 
-  font-family: Georgia, "Times New Roman", Times, Serif; 
-  font-size: 18px; 
-  line-height: 150%;
-  color: rgb(230, 219, 229);
-  background: #293b7b;
+  padding: auto; 
+  margin: auto; 
+
 }
 
 h1 {
-  /* Put a 15-pixel margin at the bottom of the heading. */
-  margin-bottom: 15px;
-  /* Change the size of your font to 60 pixels high. */
-  font-size: 60px;
-  /* This will color the heading font white. */
-  /* color: white; */
-  /* Align the text to the center of its enclosing element (e.g. div). */
+
   text-align: center;
 
-  /* Underline the text. */
   text-decoration: underline;
-  /* The background of the heading element will now be black. */
-  /* background-color: green; */
+ 
 }
+
 h3 {
-  /* Put a 15-pixel margin at the top of all h2 headings. */
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-size: 40px;
   text-align: center;
 }
- /* All img tags */
- img {
-  /* 
-    Center a block element in the middle of its enclosing tag.
-    When you use the "auto" rule on both left and right margins, 
-    your browser will do the math necessary to center a block element.
-    */
-  margin-left: auto;
-  margin-right: auto;
-  /* Block display (more on this later) */
-  display: block;
- }
+
 
 li {
-  text-align: center;
+  text-align: left;
   font-size: 15px;
-  /* Give an element a solid border. */
+
 }
 
 
-
-@media (max-width: 600px) {
-  .navsmall{
-      background-color: rgba(156, 6, 106, 0.425);
-  }
-  .right-image{
-      width: 500px;
-  }
-  .vis{
-      width: 500px;
-  }
+.comparison{
+  block-size: 400px;
+  align-content: center;
+  margin-left: auto; 
+  margin-right: auto; 
+  display: block; 
+  width:100%; 
 }
 
-@media (min-width:600px) and (max-width: 1400px) {
-  .right-image{
-      width: 500px;
-  }
-  .vis{
-      width: 500px;
-  }
+.comparison1{
+  width:90%; 
+  display: block;
+  margin: 0 auto;
+
 }
